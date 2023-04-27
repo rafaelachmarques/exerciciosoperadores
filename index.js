@@ -49,5 +49,34 @@ console.log("O primeiro numero é divisivel pelo segundo?", n1%n2 == 0)
 console.log("O segundo numero é divisivel pelo primeiro?", n2%n1 ==0)*/
 ///
 
+//(KELVIN) = (GRAUS_FAHRENHEIT - 32)*(5/9) + 273.15
+//(GRAUS_FAHRENHEIT) = (GRAUS_CELSIUS)*(9/5) + 32
+
+///
+
+// a) Calcule e mostre o valor de 77°F em K, mostrando a unidade no console também.
+KELVIN = (77 - 32)*(5/9) + 273.15
+console.log("77 F° são", KELVIN, "kelvin")
+///
+
+// b) Calcule e mostre o valor de 80°C em °F, mostrando a unidade no console também
+GRAUS_FAHRENHEIT = 80*(9/5) + 32
+console.log("80 °C são", GRAUS_FAHRENHEIT, "fahrenheit")
+///
+
+// c) Calcule e mostre o valor de 30°C em °F e K, mostrando as unidades no console também 
+novoFahrenheit = 30*(9/5) + 32
+console.log("30 °C são", novoFahrenheit, "fahrenheit");
+KELVIN2 = (novoFahrenheit - 32)*(5/9) + 273.15
+console.log(`${novoFahrenheit} °F são ${KELVIN2} kelvin`)
+///
+
+// d) Altere o último item para que o usuário insira o valor em graus celsius que ele deseja converter
+novo
+novoFahrenheit = 30*(9/5) + 32
+console.log("30 °C são", novoFahrenheit, "fahrenheit");
+KELVIN2 = (novoFahrenheit - 32)*(9/5) + 273.15
+console.log(`${novoFahrenheit} °F são ${KELVIN2} kelvin`)
+
 
 
